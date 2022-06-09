@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 @RequiredArgsConstructor
 @Configuration
-public class SpringProducerFactoryConfig {
+public class StringProducerFactoryConfig {
 
     private final KafkaProperties properties;
 
