@@ -38,18 +38,18 @@ services:
 
   payment:
     image: rabbittrix/payment-service:1.0.0
-    networks: 
+    networks:
       - broker-kafka
     depends_on:
       - kafka
     ports:
-      "8000:8000"
+      - "8000:8000"
     environment:
       KAFKA_HOST: kafka:29092
 
   consumer:
     image: rabbittrix/json-consumer:1.0.0
-    networks: 
+    networks:
       - broker-kafka
     depends_on:
       - kafka
