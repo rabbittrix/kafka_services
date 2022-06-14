@@ -23,3 +23,4 @@ Develop clean and organized code using Clean Arch and SOLID practices
 ## Generating the Dockerfile
 docker build -t <yuorUser>/json-consumer:1.0.0 .
 docker build -t <yuorUser>/payment-service:1.0.0 .
+docker-compose up
