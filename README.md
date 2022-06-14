@@ -21,6 +21,17 @@ Implement a mono-repo to increase our entire stack
 Develop clean and organized code using Clean Arch and SOLID practices
 
 ## Generating the Dockerfile
-docker build -t <yuorUser>/json-consumer:1.0.0 .
-docker build -t <yuorUser>/payment-service:1.0.0 .
-docker-compose up
+
+* docker build -t <yourUser>/json-consumer:1.0.0 .
+
+* docker build -t <yourUser>/payment-service:1.0.0 .
+
+* docker-compose up
+
+## Uploading image to Docker Hub
+
+* docker login
+
+* docker images
+
+* docker push <user>/payment-service:1.0.0
